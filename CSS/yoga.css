@@ -1,0 +1,607 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
+    text-decoration: none !important;
+    transition: 0.5s;
+}
+
+:root{
+    --color:#cc1029;
+    --gray:#424a4d;
+    --white:white;
+    --black:black;
+}
+
+
+.img-1{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    position: relative;
+}
+
+header{
+    position: relative;
+    width:100%;
+    height: auto;
+}
+.contact-topic{
+    position:absolute;
+    top:47%;
+    left:36% !important;
+}
+.contact-topic h1{
+    color:white;
+}
+
+.yoga{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-top:70px;
+}
+.yoga-intro{
+    width:47%;
+    height: auto;
+}
+.yoga-intro img{
+    width:100%;
+    height:350px;
+}
+.sac{
+    margin-top:15px;
+}
+.yoga-intro h3{
+    color:var(--color);
+    font-weight:600;
+}
+.yoga-type{
+    margin-top:35px;
+}
+.yoga-type h4{
+   color:var(--color);
+}
+
+
+.sample{
+    margin-top:60px;
+    text-align: center;
+     
+}
+
+.sample h3{
+    margin-bottom:40px;
+    color: var(--color);
+    font-weight:bold;
+}
+h3 span{
+    color:black;
+}
+.content-area {
+    width:100%;
+    height:auto;
+}
+.content-area .content img{
+    width:100%;
+    height:250px;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:320px){
+
+
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    header{
+        position: relative;
+        width:100%;
+        height: auto;
+    }
+    .contact-topic{
+        position:absolute;
+        top:47%;
+        left:20% !important;
+    }
+    .contact-topic h1{
+        color:white;
+    }
+    
+    .yoga{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        margin-top:20px;
+    }
+    .yoga-intro{
+        width:100%;
+        height: auto;
+    }
+    .yoga-intro img{
+        width:100%;
+        height:auto;
+    }
+    .sac{
+        margin-top:15px;
+    }
+    .yoga-intro h3{
+        color:var(--color);
+        font-weight:600;
+    }
+    .yoga-type{
+        margin-top:35px;
+    }
+    .yoga-type h4{
+       color:var(--color);
+    }
+    
+    
+    .sample{
+        margin-top:30px;
+        text-align: center;
+         
+    }
+    
+    .sample h3{
+        margin-bottom:40px;
+        color: var(--color);
+        font-weight:bold;
+    }
+    h3 span{
+        color:black;
+    }
+    .content-area {
+        width:100%;
+        height:auto;
+    }
+    .content-area .content img{
+        width:100%;
+        height:250px;
+        transition: 0.3s;
+    }
+    
+    
+
+}
+@media screen and (min-width:321px) and (max-width:375px){
+
+  
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    header{
+        position: relative;
+        width:100%;
+        height: auto;
+    }
+    .contact-topic{
+        position:absolute;
+        top:40%;
+        left:22% !important;
+    }
+    .contact-topic h1{
+        color:white;
+    }
+    
+    .yoga{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        margin-top:20px;
+    }
+    .yoga-intro{
+        width:100%;
+        height: auto;
+    }
+    .yoga-intro img{
+        width:100%;
+        height:auto;
+    }
+    .sac{
+        margin-top:15px;
+    }
+    .yoga-intro h3{
+        color:var(--color);
+        font-weight:600;
+    }
+    .yoga-type{
+        margin-top:35px;
+    }
+    .yoga-type h4{
+       color:var(--color);
+    }
+    
+    
+    .sample{
+        margin-top:30px;
+        text-align: center;
+         
+    }
+    
+    .sample h3{
+        margin-bottom:40px;
+        color: var(--color);
+        font-weight:bold;
+    }
+    h3 span{
+        color:black;
+    }
+    .content-area {
+        width:100%;
+        height:auto;
+    }
+    .content-area .content img{
+        width:100%;
+        height:250px;
+        transition: 0.3s;
+    }
+    
+}
+
+@media screen and (min-width:376px) and (max-width:425px){
+
+ 
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    header{
+        position: relative;
+        width:100%;
+        height: auto;
+    }
+    .contact-topic{
+        position:absolute;
+        top:35%;
+        left:25% !important;
+    }
+    .contact-topic h1{
+        color:white;
+    }
+    
+    .yoga{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        margin-top:20px;
+    }
+    .yoga-intro{
+        width:100%;
+        height: auto;
+    }
+    .yoga-intro img{
+        width:100%;
+        height:auto;
+    }
+    .sac{
+        margin-top:15px;
+    }
+    .yoga-intro h3{
+        color:var(--color);
+        font-weight:600;
+    }
+    .yoga-type{
+        margin-top:35px;
+    }
+    .yoga-type h4{
+       color:var(--color);
+    }
+    
+    
+    .sample{
+        margin-top:30px;
+        text-align: center;
+         
+    }
+    
+    .sample h3{
+        margin-bottom:40px;
+        color: var(--color);
+        font-weight:bold;
+    }
+    h3 span{
+        color:black;
+    }
+    .content-area {
+        width:100%;
+        height:auto;
+    }
+    .content-area .content img{
+        width:100%;
+        height:250px;
+        transition: 0.3s;
+    }
+    
+}
+
+@media screen and (min-width:426px) and (max-width:600px){
+
+  
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    header{
+        position: relative;
+        width:100%;
+        height: auto;
+    }
+    .contact-topic{
+        position:absolute;
+        top:47%;
+        left:20% !important;
+    }
+    .contact-topic h1{
+        color:white;
+    }
+    
+    .yoga{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        margin-top:20px;
+    }
+    .yoga-intro{
+        width:100%;
+        height: auto;
+    }
+    .yoga-intro img{
+        width:100%;
+        height:auto;
+    }
+    .sac{
+        margin-top:15px;
+    }
+    .yoga-intro h3{
+        color:var(--color);
+        font-weight:600;
+    }
+    .yoga-type{
+        margin-top:35px;
+    }
+    .yoga-type h4{
+       color:var(--color);
+    }
+    
+    
+    .sample{
+        margin-top:30px;
+        text-align: center;
+         
+    }
+    
+    .sample h3{
+        margin-bottom:40px;
+        color: var(--color);
+        font-weight:bold;
+    }
+    h3 span{
+        color:black;
+    }
+    .content-area {
+        width:100%;
+        height:auto;
+    }
+    .content-area .content img{
+        width:100%;
+        height:250px;
+        transition: 0.3s;
+    }
+
+
+
+
+
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+
+  
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    header{
+        position: relative;
+        width:100%;
+        height: auto;
+    }
+    .contact-topic{
+        position:absolute;
+        top:25%;
+        left:35% !important;
+    }
+    .contact-topic h1{
+        color:white;
+    }
+    
+    .yoga{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        margin-top:20px;
+    }
+    .yoga-intro{
+        width:100%;
+        height: auto;
+    }
+    .yoga-intro img{
+        width:100%;
+        height:auto;
+    }
+    .sac{
+        margin-top:15px;
+    }
+    .yoga-intro h3{
+        color:var(--color);
+        font-weight:600;
+    }
+    .yoga-type{
+        margin-top:35px;
+    }
+    .yoga-type h4{
+       color:var(--color);
+    }
+    
+    
+    .sample{
+        margin-top:30px;
+        text-align: center;
+         
+    }
+    
+    .sample h3{
+        margin-bottom:40px;
+        color: var(--color);
+        font-weight:bold;
+    }
+    h3 span{
+        color:black;
+    }
+    .content-area {
+        width:100%;
+        height:auto;
+    }
+    .content-area .content img{
+        width:100%;
+        height:250px;
+        transition: 0.3s;
+    }
+
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width:769px) and (max-width:900px){
+
+   
+  
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    header{
+        position: relative;
+        width:100%;
+        height: auto;
+    }
+    .contact-topic{
+        position:absolute;
+        top:22%;
+        left:37% !important;
+    }
+    .contact-topic h1{
+        color:white;
+    }
+    
+    .yoga{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        margin-top:20px;
+    }
+    .yoga-intro{
+        width:100%;
+        height: auto;
+    }
+    .yoga-intro img{
+        width:100%;
+        height:auto;
+    }
+    .sac{
+        margin-top:15px;
+    }
+    .yoga-intro h3{
+        color:var(--color);
+        font-weight:600;
+    }
+    .yoga-type{
+        margin-top:35px;
+    }
+    .yoga-type h4{
+       color:var(--color);
+    }
+    
+    
+    .sample{
+        margin-top:30px;
+        text-align: center;
+         
+    }
+    
+    .sample h3{
+        margin-bottom:40px;
+        color: var(--color);
+        font-weight:bold;
+    }
+    h3 span{
+        color:black;
+    }
+    .content-area {
+        width:100%;
+        height:auto;
+    }
+    .content-area .content img{
+        width:100%;
+        height:250px;
+        transition: 0.3s;
+    }
+
+
+}
+
+

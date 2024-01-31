@@ -1,0 +1,1499 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
+    text-decoration: none !important;
+    transition: 0.5s;
+}
+
+:root{
+    --color:#cc1029;
+    --gray:#424a4d;
+    --white:white;
+    --black:black;
+}
+
+
+.img-1{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    position: relative;
+}
+
+
+header{
+    position: relative;
+    width:100%;
+    height: auto;
+}
+.contact-topic{
+    position:absolute;
+    top:47%;
+    left:40%;
+}
+.contact-topic h1{
+    color:white;
+}
+
+
+.services .service-title {
+    margin-bottom: 4%;
+    margin-top:50px;
+}
+
+.services .service-title h5 {
+    color: var(--color);
+    font-family: 'Work Sans', sans-serif;
+    font-weight:bolder;
+    font-size: 30px;
+}
+
+
+.services .service-title p{
+    font-size: 17px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.services .service-title a {
+    width: 150px;
+    margin-top: 2%;
+    padding: 1% 1.5%;
+    background-color: var(--c2);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    transition: 1s;
+}
+
+.services .service-title a:hover {
+    transition: 1s;
+    background-color: var(--black);
+    font-weight: 500;
+    color: var(--white);
+}
+
+.services button {
+    margin-bottom: 3%;
+    text-align: justify;
+    font-family: 'Work Sans', sans-serif;
+    background: none;
+    color: var(--black);
+    transition: 0.5s;
+    font-size: 16px;
+    width: 100%;
+}
+
+.services button:hover {
+    color: white !important;
+    background-color: black !important;
+}
+
+.-services .nav-pills {
+    border-bottom: 3px solid var(--color);
+    background-color: var(--white);
+    width: 100%;
+    /* width: 100%;
+    flex-direction: row !important; */
+}
+
+.services .nav-pills .active {
+    background: var(--color) !important;
+    border-left: 5px solid var(--black) !important;
+    color: var(--white) !important;
+    width:22%;
+}
+
+
+.services .tab-content {
+    width:100%;
+}
+
+
+.services .tab-content .tab-pane {
+    height: auto;
+    width: 100%;
+}
+
+.services .tab-content .tab-pane img {
+    width:100%;
+    height:390px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav-link{
+    width:11% !important;
+}
+
+.application-form{
+    display: flex;
+    overflow: hidden;
+    width:100%;
+    height:auto;
+    
+
+}
+
+.time-sec{
+    display:flex;
+    justify-content:space-around;
+    
+    margin-top:50px;
+}
+.fees p{
+   margin-bottom:10px;
+}
+.timing{
+    display: flex;
+    flex-direction: column;
+    width:35%;
+
+}
+.timing h4{
+    text-decoration: underline !important;
+    text-decoration-color:var(--color) !important;
+ 
+}
+.timing h6{
+    font-size:22px;
+}
+.fees h4{
+    text-decoration: underline !important;
+    text-decoration-color:var(--color) !important;
+}
+.fees h6{
+    font-size:18px !important;
+}
+.online-booking {
+    margin-top:1%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    margin-left:5px;
+    padding:1%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.online-booking form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.online-booking form input {
+    width: 100%;
+    padding: 1.5%;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--color);
+}
+
+.online-booking form select {
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--light);
+    padding: 1.5%;
+}
+
+.online-booking form button {
+    padding:1.5%;
+    background-color: var(--color);
+    border: none;
+    color: var(--white);
+    text-align: center;
+  
+}
+
+.online-booking form button:hover {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.tab-pane h4{
+      color:black;
+}
+
+p{
+    font-size:17px;
+}
+.services .service-title h2{
+    font-size:25px;
+    color:var(--color);
+}
+.services .service-title ul li{
+    font-size:17px;
+    margin-bottom:5px;
+}
+
+
+
+
+@media screen and (max-width:320px){
+
+
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    
+    header{
+        position: relative;
+        width:100%;
+        height: auto;
+    }
+    .contact-topic{
+        position:absolute;
+        top:53%;
+        left:22%;
+    }
+    .contact-topic h1{
+        color:white;
+        font-size:20px;
+    }
+
+   
+.services .service-title {
+    margin-bottom: 4%;
+    margin-top:50px;
+}
+
+.services .service-title h5 {
+    color: var(--color);
+    font-family: 'Work Sans', sans-serif;
+    font-weight:bolder;
+    font-size: 30px;
+}
+
+
+.services .service-title p{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.services .service-title a {
+    width: 150px;
+    margin-top: 2%;
+    padding: 1% 1.5%;
+    background-color: var(--c2);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    transition: 1s;
+}
+
+.services .service-title a:hover {
+    transition: 1s;
+    background-color: var(--black);
+    font-weight: 500;
+    color: var(--white);
+}
+
+.services button {
+    margin-bottom: 3%;
+    text-align: justify;
+    font-family: 'Work Sans', sans-serif;
+    background: none;
+    color: var(--black);
+    transition: 0.5s;
+    font-size: 16px;
+    width: 100%;
+}
+
+.services button:hover {
+    color: white !important;
+    background-color: black !important;
+}
+
+.-services .nav-pills {
+    border-bottom: 3px solid var(--color);
+    background-color: var(--white);
+    width: 100%;
+    /* width: 100%;
+    flex-direction: row !important; */
+}
+
+.services .nav-pills .active {
+    background: var(--color) !important;
+    border-left: 5px solid var(--black) !important;
+    color: var(--white) !important;
+    width:22%;
+}
+
+
+.services .tab-content {
+    width:100%;
+}
+
+
+.services .tab-content .tab-pane {
+    height:auto;
+    width: 100%;
+}
+
+.services .tab-content .tab-pane img {
+    width:100%;
+    height:250px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav-link{
+    width:100% !important;
+}
+
+.application-form{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.time-sec{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+    margin-top:20px;
+    
+}
+.fees p{
+   margin-bottom:10px;
+}
+.timing{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin-bottom:8px;
+
+}
+.timing h4{
+    text-decoration: underline !important;
+    text-decoration-color:var(--color) !important;
+ 
+}
+.fees h4{
+    text-decoration: underline !important;
+    text-decoration-color:var(--color) !important;
+}
+.online-booking {
+    margin-top:1%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    margin-left:5px;
+    padding: 2%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.online-booking form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.online-booking form input {
+    width: 100%;
+    padding: 1.5%;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--color);
+}
+
+.online-booking form select {
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--light);
+    padding: 1.5%;
+}
+
+.online-booking form button {
+    padding: 2%;
+    background-color: var(--color);
+    border: none;
+    color: var(--white);
+    text-align: center;
+  
+}
+
+.online-booking form button:hover {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.tab-pane h4{
+      color:black;
+}
+
+
+
+
+
+}
+
+@media screen and (min-width:321px) and (max-width:375px){
+
+
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    
+    header{
+        position: relative;
+        width:100%;
+        height: auto;
+    }
+    .contact-topic{
+        position:absolute;
+        top:40%;
+        left:24%;
+    }
+    .contact-topic h1{
+        color:white;
+        font-size:20px;
+    }
+
+   
+.services .service-title {
+    margin-bottom: 4%;
+    margin-top:50px;
+}
+
+.services .service-title h5 {
+    color: var(--color);
+    font-family: 'Work Sans', sans-serif;
+    font-weight:bolder;
+    font-size: 30px;
+}
+
+
+.services .service-title p{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.services .service-title a {
+    width: 150px;
+    margin-top: 2%;
+    padding: 1% 1.5%;
+    background-color: var(--c2);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    transition: 1s;
+}
+
+.services .service-title a:hover {
+    transition: 1s;
+    background-color: var(--black);
+    font-weight: 500;
+    color: var(--white);
+}
+
+.services button {
+    margin-bottom: 3%;
+    text-align: justify;
+    font-family: 'Work Sans', sans-serif;
+    background: none;
+    color: var(--black);
+    transition: 0.5s;
+    font-size: 16px;
+    width: 100%;
+}
+
+.services button:hover {
+    color: white !important;
+    background-color: black !important;
+}
+
+.-services .nav-pills {
+    border-bottom: 3px solid var(--color);
+    background-color: var(--white);
+    width: 100%;
+    /* width: 100%;
+    flex-direction: row !important; */
+}
+
+.services .nav-pills .active {
+    background: var(--color) !important;
+    border-left: 5px solid var(--black) !important;
+    color: var(--white) !important;
+    width:22%;
+}
+
+
+.services .tab-content {
+    width:100%;
+}
+
+
+.services .tab-content .tab-pane {
+    height:auto;
+    width: 100%;
+}
+
+.services .tab-content .tab-pane img {
+    width:100%;
+    height:250px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav-link{
+    width:100% !important;
+}
+
+.application-form{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.time-sec{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+    margin-top:50px;
+}
+.fees {
+    margin-top:10px;
+}
+.fees p{
+   margin-bottom:10px;
+}
+.timing{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+
+}
+.timing h4{
+    text-decoration: underline !important;
+    text-decoration-color:var(--color) !important;
+ 
+}
+.fees h4{
+    text-decoration: underline !important;
+    text-decoration-color:var(--color) !important;
+}
+.online-booking {
+    margin-top:1%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    margin-left:5px;
+    padding: 2%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.online-booking form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.online-booking form input {
+    width: 100%;
+    padding: 1.5%;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--color);
+}
+
+.online-booking form select {
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--light);
+    padding: 1.5%;
+}
+
+.online-booking form button {
+    padding: 2%;
+    background-color: var(--color);
+    border: none;
+    color: var(--white);
+    text-align: center;
+  
+}
+
+.online-booking form button:hover {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.tab-pane h4{
+      color:black;
+}
+
+
+
+
+
+}
+
+@media screen and (min-width:376px) and (max-width:425px){
+
+  
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    
+    header{
+        position: relative;
+        width:100%;
+        height: auto;
+    }
+    .contact-topic{
+        position:absolute;
+        top:45%;
+        left:30%;
+    }
+    .contact-topic h1{
+        color:white;
+        font-size:20px;
+    }
+
+   
+.services .service-title {
+    margin-bottom: 4%;
+    margin-top:50px;
+}
+
+.services .service-title h5 {
+    color: var(--color);
+    font-family: 'Work Sans', sans-serif;
+    font-weight:bolder;
+    font-size: 30px;
+}
+
+
+.services .service-title p{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.services .service-title a {
+    width: 150px;
+    margin-top: 2%;
+    padding: 1% 1.5%;
+    background-color: var(--c2);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    transition: 1s;
+}
+
+.services .service-title a:hover {
+    transition: 1s;
+    background-color: var(--black);
+    font-weight: 500;
+    color: var(--white);
+}
+
+.services button {
+    margin-bottom: 3%;
+    text-align: justify;
+    font-family: 'Work Sans', sans-serif;
+    background: none;
+    color: var(--black);
+    transition: 0.5s;
+    font-size: 16px;
+    width: 100%;
+}
+
+.services button:hover {
+    color: white !important;
+    background-color: black !important;
+}
+
+.-services .nav-pills {
+    border-bottom: 3px solid var(--color);
+    background-color: var(--white);
+    width: 100%;
+    /* width: 100%;
+    flex-direction: row !important; */
+}
+
+.services .nav-pills .active {
+    background: var(--color) !important;
+    border-left: 5px solid var(--black) !important;
+    color: var(--white) !important;
+    width:22%;
+}
+
+
+.services .tab-content {
+    width:100%;
+}
+
+
+.services .tab-content .tab-pane {
+    height:auto;
+    width: 100%;
+}
+
+.services .tab-content .tab-pane img {
+    width:100%;
+    height:250px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav-link{
+    width:100% !important;
+}
+
+.application-form{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.time-sec{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+    margin-top:50px;
+}
+.fees {
+    margin-top:10px;
+}
+.fees p{
+   margin-bottom:10px;
+}
+.timing{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+
+}
+.timing h4{
+    text-decoration: underline !important;
+    text-decoration-color:var(--color) !important;
+ 
+}
+.fees h4{
+    text-decoration: underline !important;
+    text-decoration-color:var(--color) !important;
+}
+.online-booking {
+    margin-top:1%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    margin-left:5px;
+    padding: 2%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.online-booking form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.online-booking form input {
+    width: 100%;
+    padding: 1.5%;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--color);
+}
+
+.online-booking form select {
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--light);
+    padding: 1.5%;
+}
+
+.online-booking form button {
+    padding: 2%;
+    background-color: var(--color);
+    border: none;
+    color: var(--white);
+    text-align: center;
+  
+}
+
+.online-booking form button:hover {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.tab-pane h4{
+      color:black;
+}
+
+
+
+
+
+}
+
+@media screen and (min-width:426px) and (max-width:600px){
+
+   
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    
+    header{
+        position: relative;
+        width:100%;
+        height: auto;
+    }
+    .contact-topic{
+        position:absolute;
+        top:75%;
+        left:35%;
+    }
+    .contact-topic h1{
+        color:white;
+        font-size:20px;
+    }
+
+   
+.services .service-title {
+    margin-bottom: 4%;
+    margin-top:50px;
+}
+
+.services .service-title h5 {
+    color: var(--color);
+    font-family: 'Work Sans', sans-serif;
+    font-weight:bolder;
+    font-size: 30px;
+}
+
+
+.services .service-title p{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.services .service-title a {
+    width: 150px;
+    margin-top: 2%;
+    padding: 1% 1.5%;
+    background-color: var(--c2);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    transition: 1s;
+}
+
+.services .service-title a:hover {
+    transition: 1s;
+    background-color: var(--black);
+    font-weight: 500;
+    color: var(--white);
+}
+
+.services button {
+    margin-bottom: 3%;
+    text-align: justify;
+    font-family: 'Work Sans', sans-serif;
+    background: none;
+    color: var(--black);
+    transition: 0.5s;
+    font-size: 16px;
+    width: 100%;
+}
+
+.services button:hover {
+    color: white !important;
+    background-color: black !important;
+}
+
+.-services .nav-pills {
+    border-bottom: 3px solid var(--color);
+    background-color: var(--white);
+    width: 100%;
+    /* width: 100%;
+    flex-direction: row !important; */
+}
+
+.services .nav-pills .active {
+    background: var(--color) !important;
+    border-left: 5px solid var(--black) !important;
+    color: var(--white) !important;
+    width:22%;
+}
+
+
+.services .tab-content {
+    width:100%;
+}
+
+
+.services .tab-content .tab-pane {
+    height:auto;
+    width: 100%;
+}
+
+.services .tab-content .tab-pane img {
+    width:100%;
+    height:250px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav-link{
+    width:100% !important;
+}
+
+.application-form{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.time-sec{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+    margin-top:50px;
+}
+.fees {
+    margin-top:10px;
+}
+.fees p{
+   margin-bottom:10px;
+}
+.timing{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+
+}
+.timing h4{
+    text-decoration: underline !important;
+    text-decoration-color:var(--color) !important;
+ 
+}
+.fees h4{
+    text-decoration: underline !important;
+    text-decoration-color:var(--color) !important;
+}
+.online-booking {
+    margin-top:1%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    margin-left:5px;
+    padding: 2%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.online-booking form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.online-booking form input {
+    width: 100%;
+    padding: 1.5%;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--color);
+}
+
+.online-booking form select {
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--light);
+    padding: 1.5%;
+}
+
+.online-booking form button {
+    padding: 2%;
+    background-color: var(--color);
+    border: none;
+    color: var(--white);
+    text-align: center;
+  
+}
+
+.online-booking form button:hover {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.tab-pane h4{
+      color:black;
+}
+
+
+
+
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    
+    header{
+        position: relative;
+        width:100%;
+        height: auto;
+    }
+    .contact-topic{
+        position:absolute;
+        top:20%;
+        left:35%;
+    }
+    .contact-topic h1{
+        color:white;
+        font-size:20px;
+    }
+
+   
+.services .service-title {
+    margin-bottom: 4%;
+    margin-top:50px;
+}
+
+.services .service-title h5 {
+    color: var(--color);
+    font-family: 'Work Sans', sans-serif;
+    font-weight:bolder;
+    font-size: 30px;
+}
+
+
+.services .service-title p{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.services .service-title a {
+    width: 150px;
+    margin-top: 2%;
+    padding: 1% 1.5%;
+    background-color: var(--c2);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    transition: 1s;
+}
+
+.services .service-title a:hover {
+    transition: 1s;
+    background-color: var(--black);
+    font-weight: 500;
+    color: var(--white);
+}
+
+.services button {
+    margin-bottom: 3%;
+    text-align: justify;
+    font-family: 'Work Sans', sans-serif;
+    background: none;
+    color: var(--black);
+    transition: 0.5s;
+    font-size: 16px;
+    width: 100%;
+}
+
+.services button:hover {
+    color: white !important;
+    background-color: black !important;
+}
+
+.-services .nav-pills {
+    border-bottom: 3px solid var(--color);
+    background-color: var(--white);
+    width: 100%;
+    /* width: 100%;
+    flex-direction: row !important; */
+}
+
+.services .nav-pills .active {
+    background: var(--color) !important;
+    border-left: 5px solid var(--black) !important;
+    color: var(--white) !important;
+    width:22%;
+}
+
+
+.services .tab-content {
+    width:100%;
+}
+
+
+.services .tab-content .tab-pane {
+    height:auto;
+    width: 100%;
+}
+
+.services .tab-content .tab-pane img {
+    width:100%;
+    height:250px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav-link{
+    width:100% !important;
+}
+
+.application-form{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.time-sec{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+    margin-top:50px;
+}
+.fees {
+    margin-top:10px;
+}
+.fees p{
+   margin-bottom:10px;
+}
+.timing{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+
+}
+.timing h4{
+    text-decoration: underline !important;
+    text-decoration-color:var(--color) !important;
+ 
+}
+.fees h4{
+    text-decoration: underline !important;
+    text-decoration-color:var(--color) !important;
+}
+.online-booking {
+    margin-top:1%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    margin-left:5px;
+    padding: 2%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.online-booking form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.online-booking form input {
+    width: 100%;
+    padding: 1.5%;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--color);
+}
+
+.online-booking form select {
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--light);
+    padding: 1.5%;
+}
+
+.online-booking form button {
+    padding: 2%;
+    background-color: var(--color);
+    border: none;
+    color: var(--white);
+    text-align: center;
+  
+}
+
+.online-booking form button:hover {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.tab-pane h4{
+      color:black;
+}
+
+
+
+
+}
+
+@media screen and (min-width:769px) and (max-width:900px){
+
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    
+    header{
+        position: relative;
+        width:100%;
+        height: auto;
+    }
+    .contact-topic{
+        position:absolute;
+        top:20%;
+        left:35%;
+    }
+    .contact-topic h1{
+        color:white;
+        font-size:20px;
+    }
+
+   
+.services .service-title {
+    margin-bottom: 4%;
+    margin-top:50px;
+}
+
+.services .service-title h5 {
+    color: var(--color);
+    font-family: 'Work Sans', sans-serif;
+    font-weight:bolder;
+    font-size: 30px;
+}
+
+
+.services .service-title p{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.services .service-title a {
+    width: 150px;
+    margin-top: 2%;
+    padding: 1% 1.5%;
+    background-color: var(--c2);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    transition: 1s;
+}
+
+.services .service-title a:hover {
+    transition: 1s;
+    background-color: var(--black);
+    font-weight: 500;
+    color: var(--white);
+}
+
+.services button {
+    margin-bottom: 3%;
+    text-align: justify;
+    font-family: 'Work Sans', sans-serif;
+    background: none;
+    color: var(--black);
+    transition: 0.5s;
+    font-size: 16px;
+    width: 100%;
+}
+
+.services button:hover {
+    color: white !important;
+    background-color: black !important;
+}
+
+.-services .nav-pills {
+    border-bottom: 3px solid var(--color);
+    background-color: var(--white);
+    width: 100%;
+    /* width: 100%;
+    flex-direction: row !important; */
+}
+
+.services .nav-pills .active {
+    background: var(--color) !important;
+    border-left: 5px solid var(--black) !important;
+    color: var(--white) !important;
+    width:22%;
+}
+
+
+.services .tab-content {
+    width:100%;
+}
+
+
+.services .tab-content .tab-pane {
+    height:auto;
+    width: 100%;
+}
+
+.services .tab-content .tab-pane img {
+    width:100%;
+    height:250px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav-link{
+    width:100% !important;
+}
+
+.application-form{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.time-sec{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+    margin-top:50px;
+}
+.fees {
+    margin-top:10px;
+}
+.fees p{
+   margin-bottom:10px;
+}
+.timing{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+
+}
+.timing h4{
+    text-decoration: underline !important;
+    text-decoration-color:var(--color) !important;
+ 
+}
+.fees h4{
+    text-decoration: underline !important;
+    text-decoration-color:var(--color) !important;
+}
+.online-booking {
+    margin-top:1%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    margin-left:5px;
+    padding: 2%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.online-booking form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.online-booking form input {
+    width: 100%;
+    padding: 1.5%;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--color);
+}
+
+.online-booking form select {
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--light);
+    padding: 1.5%;
+}
+
+.online-booking form button {
+    padding: 2%;
+    background-color: var(--color);
+    border: none;
+    color: var(--white);
+    text-align: center;
+  
+}
+
+.online-booking form button:hover {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.tab-pane h4{
+      color:black;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+

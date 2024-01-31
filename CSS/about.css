@@ -1,0 +1,912 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
+    text-decoration: none !important;
+    transition: 0.5s;
+}
+
+:root{
+    --color:#cc1029;
+    --gray:#424a4d;
+    --white:white;
+    --black:black;
+}
+
+
+.img-1{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    position: relative;
+}
+
+
+header{
+    position: relative;
+    width:100%;
+    height: auto;
+}
+
+/* .over-colour-1{
+    width:100%;
+    position: absolute;
+    height:60vh !important;
+    top:0%;
+    left: 0;
+    background-color:rgb(8, 8, 8);
+    opacity:20%;
+    
+} */
+
+
+.contact-topic{
+    position:absolute;
+    top:47%;
+    left:42%;
+}
+.contact-topic h1{
+    color:white;
+}
+
+
+.mission{
+width:100%;
+height: auto;
+}
+
+.mission h3{
+     text-align: center;
+     margin-top:40px;
+     margin-bottom:8px;
+     color:var(--color);
+     font-weight:600;
+     text-decoration-line: underline;
+    
+}
+   
+.mission-1{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height: auto;
+    align-items: center;
+
+}
+.mission-1 img{
+    width:20%;
+    height:220px;
+}
+.mission-1 ol li{
+   font-size:17px;
+   margin-bottom:10px;
+}
+
+.about-history{
+    margin-top:30px;
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-history-1{
+    width:47%;
+    height:auto;
+}
+.about-history-1 img{
+    width:100%;
+    height:360px;
+    object-fit: cover;
+}
+.about-history h3{
+    color:var(--color);
+}
+.about-history h5{
+    margin-bottom:15px;
+  
+}
+
+.para{
+    margin-top:15px;
+}
+.para h4{
+    margin-top:15px;
+    color:var(--color);
+}
+.test-sec{
+    text-align: center;
+    margin-top:50px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom:10px;
+}
+.test-sec h3{
+    font-weight: bold;
+    color:var(--color);
+    font-size:30px;
+}
+.test-sec span{
+    color:var(--blue);
+}
+
+.pic{
+    width:100px;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+    margin-left:50%;
+    transform: translate(-50%,0 );
+    margin-bottom: 5%;
+    margin-top:10px;
+    border-radius:50% !important;
+   
+
+}
+.pic img{
+    width:100%;
+    height:100%;
+    border-radius:50% !important;
+    
+}
+.content-area-1{
+    width:100%;
+    height: auto;
+    padding:8% !important;
+    /* background-color:rgb(37, 122, 37); */
+  
+    background-color:grey;
+    
+    text-align: center;
+    border-radius:45px 0 45px 0;
+  
+}
+#slider{
+    margin-top:30px;
+  
+}
+.pack{
+    margin-bottom:20px;
+}
+.pack p{
+    color:white;
+    font-family: 'Rubik', sans-serif;
+}
+.name{
+    margin-bottom:10px;
+}
+.name h3{
+    font-family: 'Rubik', sans-serif;
+    color:white;
+    font-weight:500;
+    font-size:23px;
+}
+.name h5{
+    color:rgb(21, 21, 21);
+    font-family: 'poppins', sans-serif;
+    font-weight:bold;
+    font-size:15px;
+
+}
+
+.content-area-1:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+
+    .vector{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:320px){
+
+    .about-sec{
+        margin-top:40px;
+    }
+
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+      
+    }
+    
+    .contact-topic{
+        position:absolute;
+        top:60%;
+        left:30%;
+    }
+    .contact-topic h1{
+        color:white;
+    }
+ 
+header{
+    position: relative;
+    width:100%;
+    height: auto;
+    margin-bottom:30px !important;
+}
+
+/* .over-colour-1{
+    width:100%;
+    position: absolute;
+    height:60vh !important;
+    top:0%;
+    left: 0;
+    background-color:rgb(8, 8, 8);
+    opacity:60%;
+    
+} */
+
+
+.mission{
+    width:100%;
+    height: auto;
+    }
+    
+    .mission h3{
+         text-align: center;
+         margin-top:40px;
+         margin-bottom:8px;
+         color:var(--color);
+         font-weight:600;
+         text-decoration-line: underline;
+        
+    }
+       
+    .mission-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100%;
+        height: auto;
+        align-items: center;
+    
+    }
+    .mission-1 img{
+        width:100%;
+        height:auto;
+       
+    }
+    .mission-1 ol li{
+       font-size:17px;
+       margin-bottom:10px;
+       margin-top:20px !important;
+    }
+    
+.about-history{
+    margin-top:30px;
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-history-1{
+    width:100%;
+    height:auto;
+    margin-bottom:15px;
+}
+.about-history-1 img{
+    width:100%;
+    height:250px;
+    object-fit: cover;
+}
+.about-history h3{
+    color:var(--color);
+}
+.about-history h5{
+    margin-bottom:15px;
+}
+
+    
+
+}
+
+@media screen and (min-width:321px) and (max-width:375px){
+
+    .about-sec{
+        margin-top:40px;
+    }
+   
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+      
+    }
+    
+    .contact-topic{
+        position:absolute;
+        top:50%;
+        left:32%;
+    }
+
+    .contact-topic h1{
+        color:white;
+    }
+    
+
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+      
+    }
+    
+header{
+    position: relative;
+    width:100%;
+    height: auto;
+    margin-bottom:30px !important;
+}
+
+   .over-colour-1{
+    /* width:100%;
+    position: absolute;
+    height:60vh !important;
+    top:0%;
+    left: 0;
+    background-color:rgb(8, 8, 8);
+    opacity:60%;
+     */
+}
+     .mission{
+    width:100%;
+    height: auto;
+    }
+    
+     .mission h3{
+         text-align: center;
+         margin-top:40px;   
+         margin-bottom:8px;
+         color:var(--color);
+         font-weight:600;
+         text-decoration-line: underline;
+        
+    }
+       
+    .mission-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100%;
+        height: auto;
+        align-items: center;
+    
+    }
+    .mission-1 img{
+        width:100%;
+        height:auto;
+    
+       
+    }
+    .mission-1 ol li{
+       font-size:17px;
+       margin-bottom:10px;
+       margin-top:20px !important;
+    }
+    
+    
+.about-history{
+    margin-top:30px;
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-history-1{
+    width:100%;
+    height:auto;
+    margin-bottom:15px;
+}
+.about-history-1 img{
+    width:100%;
+    height:250px;
+    object-fit: cover;
+}
+.about-history h3{
+    color:var(--color);
+}
+.about-history h5{
+    margin-bottom:15px;
+}
+
+    
+}
+
+@media screen and (min-width:376px) and (max-width:425px){
+
+    .about-sec{
+        margin-top:40px;
+    }
+
+    
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+      
+    }
+    
+    .contact-topic{
+        position:absolute;
+        top:40%;
+        left:35%;
+    }
+    .contact-topic h1{
+        color:white;
+    }
+    
+
+
+
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+      
+    }
+    
+ 
+header{
+    position: relative;
+    width:100%;
+    height: auto;
+    margin-bottom:30px !important;
+}
+
+.over-colour-1{
+    /* width:100%;
+    position: absolute;
+    height:60vh !important;
+    top:0%;
+    left: 0;
+    background-color:rgb(8, 8, 8);
+    opacity:60%;
+     */
+}
+
+
+
+
+
+
+
+.mission{
+    width:100%;
+    height: auto;
+    }
+    
+    .mission h3{
+         text-align: center;
+         margin-top:40px;
+         margin-bottom:8px;
+         color:var(--color);
+         font-weight:600;
+         text-decoration-line: underline;
+        
+    }
+       
+    .mission-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100%;
+        height: auto;
+        align-items: center;
+    
+    }
+    .mission-1 img{
+        width:100%;
+        height:auto;
+    
+       
+    }
+    .mission-1 ol li{
+       font-size:17px;
+       margin-bottom:10px;
+       margin-top:30px !important;
+    }
+    
+    
+.about-history{
+    margin-top:30px;
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-history-1{
+    width:100%;
+    height:auto;
+    margin-bottom:15px;
+}
+.about-history-1 img{
+    width:100%;
+    height:280px;
+    object-fit: cover;
+}
+.about-history h3{
+    color:var(--color);
+}
+.about-history h5{
+    margin-bottom:15px;
+}
+
+    
+
+
+
+
+}
+
+@media screen and (min-width:426px) and (max-width:600px){
+
+    .about-sec{
+        margin-top:40px;
+    }
+
+    
+    .contact-topic{
+        position:absolute;
+        top:55%;
+        left:35%;
+    }
+    .contact-topic h1{
+        color:white;
+    }
+
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+      
+    }
+    
+ 
+header{
+    position: relative;
+    width:100%;
+    height: auto;
+    margin-bottom:30px !important;
+}
+
+.over-colour-1{
+    /* width:100%;
+    position: absolute;
+    height:60vh !important;
+    top:0%;
+    left: 0;
+    background-color:rgb(8, 8, 8);
+    opacity:60%;
+     */
+}
+
+
+.mission{
+    width:100%;
+    height: auto;
+    }
+    
+    .mission h3{
+         text-align: center;
+         margin-top:40px;
+         margin-bottom:8px;
+         color:var(--color);
+         font-weight:600;
+         text-decoration-line: underline;
+        
+    }
+       
+    .mission-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100%;
+        height: auto;
+        align-items: center;
+    
+    }
+    .mission-1 img{
+        width:100%;
+        height:auto;
+    
+       
+    }
+    .mission-1 ol li{
+       font-size:17px;
+       margin-bottom:10px;
+       margin-top:20px !important;
+    }
+    
+    
+.about-history{
+    margin-top:30px;
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-history-1{
+    width:100%;
+    height:auto;
+    margin-bottom:15px;
+}
+.about-history-1 img{
+    width:100%;
+    height:280px;
+    object-fit: cover;
+}
+.about-history h3{
+    color:var(--color);
+}
+.about-history h5{
+    margin-bottom:15px;
+}
+
+
+
+
+
+
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+
+    
+    .about-sec{
+        margin-top:40px;
+    }
+    
+    .contact-topic{
+        position:absolute;
+        top:10%;
+        left:40% !important;
+    }
+    .contact-topic h1{
+        color:white;
+    }
+
+ 
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+      
+    }
+    
+ 
+header{
+    position: relative;
+    width:100%;
+    height: auto;
+    margin-bottom:30px !important;
+}
+
+.over-colour-1{
+    /* width:100%;
+    position: absolute;
+    height:60vh !important;
+    top:0%;
+    left: 0;
+    background-color:rgb(8, 8, 8);
+    opacity:60%;
+     */
+}
+
+
+.mission{
+    width:100%;
+    height: auto;
+    }
+    
+    .mission h3{
+         text-align: center;
+         margin-top:40px;
+         margin-bottom:8px;
+         color:var(--color);
+         font-weight:600;
+         text-decoration-line: underline;
+        
+    }
+       
+    .mission-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100%;
+        height: auto;
+        align-items: center;
+    
+    }
+    .mission-1 img{
+        width:100%;
+        height:350px;
+    
+       
+    }
+    .mission-1 ol li{
+       font-size:17px;
+       margin-bottom:10px;
+       margin-top:20px !important;
+    }
+
+    
+.about-history{
+    margin-top:30px;
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-history-1{
+    width:100%;
+    height:auto;
+    margin-bottom:15px;
+}
+.about-history-1 img{
+    width:100%;
+    height:420px;
+    object-fit: cover;
+}
+.about-history h3{
+    color:var(--color);
+}
+.about-history h5{
+    margin-bottom:15px;
+}
+
+    
+    
+
+
+}
+
+@media screen and (min-width:769px) and (max-width:900px){
+
+    .about-sec{
+        margin-top:40px;
+    }
+
+    .contact-topic{
+        position:absolute;
+        top:72%;
+        left:40% !important;
+    }
+    .contact-topic h1{
+        color:white;
+    }
+
+    .img-1{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        position: relative;
+      
+    }
+    
+ 
+header{
+    position: relative;
+    width:100%;
+    height: auto;
+    margin-bottom:30px !important;
+}
+
+.over-colour-1{
+    /* width:100%;
+    position: absolute;
+    height:60vh !important;
+    top:0%;
+    left: 0;
+    background-color:rgb(8, 8, 8);
+    opacity:60%;
+     */
+}
+
+
+.mission{
+    width:100%;
+    height: auto;
+    }
+    
+    .mission h3{
+         text-align: center;
+         margin-top:40px;
+         margin-bottom:8px;
+         color:var(--color);
+         font-weight:600;
+         text-decoration-line: underline;
+        
+    }
+       
+    .mission-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100%;
+        height: auto;
+        align-items: center;
+    
+    }
+    .mission-1 img{
+        width:100%;
+        height:350px;
+    
+       
+    }
+    .mission-1 ol li{
+       font-size:17px;
+       margin-bottom:10px;
+       margin-top:20px !important;
+    }
+    
+    
+.about-history{
+    margin-top:30px;
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-history-1{
+    width:100%;
+    height:auto;
+    margin-bottom:15px;
+}
+.about-history-1 img{
+    width:100%;
+    height:420px;
+    object-fit: cover;
+}
+.about-history h3{
+    color:var(--color);
+}
+.about-history h5{
+    margin-bottom:15px;
+}
+
+    
+
+
+
+}
